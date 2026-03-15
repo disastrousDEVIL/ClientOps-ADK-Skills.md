@@ -1,0 +1,6 @@
+Client asked if phase 1 can be delivered before 25 March.
+Team said design can be completed by 18 March.
+Development may need 2 extra days.
+Payment approval is still pending from finance.
+Riya will send revised timeline tomorrow.
+Need confirmation from client on final feature list.
