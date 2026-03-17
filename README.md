@@ -4,6 +4,8 @@ A modular business assistant built using **Google ADK** and **AgentSkills (SKILL
 
 ClientOps Agent uses a **multi-skill architecture** where each business task is handled by a focused, reusable skill instead of one large prompt.
 
+![ADK Web UI](assets/adk-demo.png)
+
 ---
 
 ## 🚀 Overview
@@ -163,10 +165,6 @@ adk web .
 ```
 
 Then open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
-
-### 🖥️ Demo
-
-![ADK Web UI](assets/adk-demo.png)
 
 ---
 
