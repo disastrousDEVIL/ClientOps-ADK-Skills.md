@@ -1,6 +1,6 @@
 # 🤖 ClientOps Agent
 
-A modular business assistant built using **Google ADK Skills (SKILL.md)**.
+A modular business assistant built using **Google ADK** and **AgentSkills (SKILL.md)**.
 
 ClientOps Agent uses a **multi-skill architecture** where each business task is handled by a focused, reusable skill instead of one large prompt.
 
@@ -15,7 +15,7 @@ ClientOps Agent helps automate common business operations such as:
 - 📋 Generating structured project briefs
 - 📖 Answering internal policy questions
 
-Instead of a single monolithic AI prompt, this system uses **file-based ADK Skills**, making it modular, scalable, and easy to extend.
+Instead of a single monolithic AI prompt, this system uses **file-based Google ADK + AgentSkills**, making it modular, scalable, and easy to extend.
 
 ---
 
@@ -84,7 +84,7 @@ client_ops/
 ## ⚙️ Tech Stack
 
 - Google ADK (Python)
-- ADK File-Based Skills (`SKILL.md`)
+- AgentSkills — File-Based Skills (`SKILL.md`)
 - SkillToolset
 - LiteLLM (OpenAI GPT)
 - python-dotenv
@@ -202,7 +202,7 @@ agentskills validate ./skills/email-writer
 
 - Modular AI architecture
 - One skill = one responsibility
-- File-based skill definitions (`SKILL.md`)
+- File-based skill definitions via AgentSkills (`SKILL.md`)
 - Separation of instructions, references, and examples
 - Agent handles routing automatically
 
@@ -210,7 +210,7 @@ agentskills validate ./skills/email-writer
 
 ## ⚠️ Limitations
 
-- ADK Skills are currently experimental
+- Google ADK + AgentSkills are currently experimental
 - No script execution inside skills
 - Skills rely on prompt-based reasoning
 
@@ -228,7 +228,7 @@ agentskills validate ./skills/email-writer
 
 ## 📌 Summary
 
-ClientOps Agent demonstrates how to build a **real-world modular AI system** using Google ADK Skills.
+ClientOps Agent demonstrates how to build a **real-world modular AI system** using Google ADK and AgentSkills.
 
 It shows:
 
