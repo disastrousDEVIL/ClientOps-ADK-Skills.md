@@ -1,4 +1,4 @@
-# ClientOps Agent
+# 🤖 ClientOps Agent
 
 A modular business assistant built using **Google ADK Skills (SKILL.md)**.
 
@@ -6,20 +6,20 @@ ClientOps Agent uses a **multi-skill architecture** where each business task is 
 
 ---
 
-## Overview
+## 🚀 Overview
 
 ClientOps Agent helps automate common business operations such as:
 
-- Writing professional client emails
-- Summarizing meeting notes
-- Generating structured project briefs
-- Answering internal policy questions
+- ✉️ Writing professional client emails
+- 📝 Summarizing meeting notes
+- 📋 Generating structured project briefs
+- 📖 Answering internal policy questions
 
 Instead of a single monolithic AI prompt, this system uses **file-based ADK Skills**, making it modular, scalable, and easy to extend.
 
 ---
 
-## Architecture
+## 🧠 Architecture
 
 The system follows a **modular agent + skills design**:
 
@@ -41,7 +41,7 @@ Email  Meeting  Brief  Policy
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 client_ops/
@@ -71,6 +71,8 @@ client_ops/
 │       ├── references/
 │       └── assets/
 │
+├── assets/
+│   └── adk-demo.png
 ├── requirements.txt
 ├── .env
 ├── .gitignore
@@ -79,7 +81,7 @@ client_ops/
 
 ---
 
-## Tech Stack
+## ⚙️ Tech Stack
 
 - Google ADK (Python)
 - ADK File-Based Skills (`SKILL.md`)
@@ -89,13 +91,13 @@ client_ops/
 
 ---
 
-## Skills
+## 🧩 Skills
 
-### 1. Email Writer
+### 1. ✉️ Email Writer
 - Drafts professional client emails
 - Supports follow-ups, updates, reminders, apologies, proposals
 
-### 2. Meeting Summary
+### 2. 📝 Meeting Summary
 - Converts raw meeting notes into structured summaries
 - Extracts:
   - key points
@@ -104,7 +106,7 @@ client_ops/
   - blockers
   - next steps
 
-### 3. Brief Generator
+### 3. 📋 Brief Generator
 - Converts rough project notes into structured project briefs
 - Includes:
   - goals
@@ -113,7 +115,7 @@ client_ops/
   - timeline
   - risks
 
-### 4. Company Policy
+### 4. 📖 Company Policy
 - Answers internal business questions using reference documents
 - Covers:
   - onboarding
@@ -123,7 +125,7 @@ client_ops/
 
 ---
 
-## Setup
+## 🛠️ Setup
 
 ### 1. Clone the repository
 
@@ -154,7 +156,7 @@ OPENAI_API_KEY=your-openai-api-key-here
 
 ---
 
-## Running the Agent
+## ▶️ Running the Agent
 
 ```bash
 adk web .
@@ -162,9 +164,13 @@ adk web .
 
 Then open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 
+### 🖥️ Demo
+
+![ADK Web UI](assets/adk-demo.png)
+
 ---
 
-## Example Prompts
+## 💬 Example Prompts
 
 ```
 Write a follow-up email after a client meeting
@@ -184,15 +190,15 @@ What is the refund policy?
 
 ---
 
-## Skill Validation (Optional)
+## 🔍 Skill Validation (Recommended)
 
 ```bash
-skills-ref validate ./skills/email-writer
+agentskills validate ./skills/email-writer
 ```
 
 ---
 
-## Key Design Principles
+## 💡 Key Design Principles
 
 - Modular AI architecture
 - One skill = one responsibility
@@ -202,7 +208,7 @@ skills-ref validate ./skills/email-writer
 
 ---
 
-## Limitations
+## ⚠️ Limitations
 
 - ADK Skills are currently experimental
 - No script execution inside skills
@@ -210,7 +216,7 @@ skills-ref validate ./skills/email-writer
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 - Add RAG-based knowledge for company-policy
 - Integrate external APIs (CRM, email, dashboards)
@@ -220,20 +226,20 @@ skills-ref validate ./skills/email-writer
 
 ---
 
-## Summary
+## 📌 Summary
 
 ClientOps Agent demonstrates how to build a **real-world modular AI system** using Google ADK Skills.
 
 It shows:
 
-- Clean architecture
-- Reusable skills
-- Practical business use cases
-- Scalable design pattern
+- ✅ Clean architecture
+- ✅ Reusable skills
+- ✅ Practical business use cases
+- ✅ Scalable design pattern
 
 ---
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License.
 
@@ -242,10 +248,10 @@ See the LICENSE file for full details.
 
 ---
 
-## Author
+## 👤 Author
 
 **Krish Batra**
 
-- Website: [https://vybecode.in](https://vybecode.in)
-- Email: [krishatra3@gmail.com](mailto:krishatra3@gmail.com)
-- LinkedIn: [https://www.linkedin.com/in/krish-batra](https://www.linkedin.com/in/krish-batra)
+- 🌐 Website: [https://vybecode.in](https://vybecode.in)
+- 📧 Email: [krishatra3@gmail.com](mailto:krishatra3@gmail.com)
+- 💼 LinkedIn: [https://www.linkedin.com/in/krish-batra](https://www.linkedin.com/in/krish-batra)

@@ -1,4 +1,4 @@
 google-adk
 python-dotenv
-skills-ref
+agentskills
 litellm
