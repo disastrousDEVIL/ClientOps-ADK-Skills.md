@@ -1,5 +1,5 @@
 ---
-name: company_policy
+name: company-policy
 description: Answer internal company questions using stored policy, process, onboarding, refund, and approval reference documents.
 ---
 

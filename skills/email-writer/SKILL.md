@@ -1,5 +1,5 @@
 ---
-name: email_writer
+name: email-writer
 description: Draft professional business emails for client communication such as follow-ups, updates, reminders, apologies, and proposals.
 ---
 

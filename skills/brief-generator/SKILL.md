@@ -1,5 +1,5 @@
 ---
-name: brief_generator
+name: brief-generator
 description: Turn raw project notes into a structured project brief with goals, scope, deliverables, timeline, assumptions, and risks.
 ---
 

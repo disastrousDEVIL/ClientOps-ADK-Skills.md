@@ -1,5 +1,5 @@
 ---
-name: meeting_summary
+name: meeting-summary
 description: Convert rough meeting notes into a structured summary with key points, decisions, action items, blockers, owners, and next steps.
 ---
 
